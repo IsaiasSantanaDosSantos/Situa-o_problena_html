@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Formulários</title>
+  </head>
+  <body>
+    <form method="post" action="contato.php">
+      <h1>Contato</h1>
+      <label>Nome completo</label><br>
+      <input type="text" name="nome" size="60" placeholder="Entre com seu nome completo">
+      <br><br>                       <!-- "Size" altera o tamanho da entrada do tipo text -->
+      <table>
+        <tr>
+          <td>
+            <label>E-mail</label><br>
+            <input type="email" name="number" placeholder="Entre com seu E-mail">
+          </td>
+          <td>
+            <label>Telefone</label><br>
+            <input type="email" name="number" placeholder="Entre com o seu telefone">
+          </td>
+        </tr>
+      </table>
+      <br>
+      <label>Assunto</label><br>
+      <input type="text" name="Assunto" size="50" placeholder="Informe o assunto">
+      <br><br>
+      <label>Mensagem</label><br>
+      <textarea name="Mensagem" placeholder="Entre com a mensagem" rows="5" cols="50"></textarea>
+
+      <br><br>
+      <input type="submit" name="submit" value="Enviar">
+    </form>
+
+  </body>
+</html>
